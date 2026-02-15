@@ -10,8 +10,8 @@ install:
 	$(PIP) install -r requirements.txt
 
 active:
-	echo por favor, ejecute:
-	echo source $(VENV)/bin/activate
+	@echo por favor, ejecute:
+	@echo source $(VENV)/bin/activate
 
 lint:
 	$(VENV)/bin/flake8 src  --max-line-length 90
