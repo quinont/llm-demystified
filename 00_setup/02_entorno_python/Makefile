@@ -1,11 +1,12 @@
 VENV = venv
+PYTHON_VERSION ?= python3
 PYTHON = $(VENV)/bin/python
 PIP = $(VENV)/bin/pip
 
 .PHONY: install lint test format run clean
 
 install:
-	python3.12 -m venv $(VENV)
+	$(PYTHON_VERSION) -m venv $(VENV)
 	$(PIP) install --upgrade pip
 	$(PIP) install -r requirements.txt
 
@@ -25,4 +26,3 @@ clean:
 	find . -type f -name '*.pyc' -delete
 	find . -type d -name '__pycache__' -delete
 	rm -f report.xml .coverage coverage.xml
-
