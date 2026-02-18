@@ -44,9 +44,22 @@ sequenceDiagram
 
 ## 🧪 Los Scripts
 
-- 01_peticion_con_tools.sh: Enviamos el prompt y le "enseñamos" al modelo qué herramientas existen (JSON Schema). Verás que el modelo no responde texto, sino una solicitud de herramienta.
-- 02_respuesta_con_resultado.sh: Simulamos que ya ejecutamos la función y le devolvemos el resultado al modelo para que termine su frase.
-- 03_peticion_con_accion.sh: en este caso veremos como ejecutar una funcion con parametros.
-- 04_respuesta_accion_realizada.sh: la respuesta que hay que devolver, dado a que hicimos la accion.
+- `01_peticion_con_tools.sh`: Enviamos el prompt y le "enseñamos" al modelo qué herramientas existen (JSON Schema). Verás que el modelo no responde texto, sino una solicitud de herramienta.
+- `02_respuesta_con_resultado.sh`: Simulamos que ya ejecutamos la función y le devolvemos el resultado al modelo para que termine su frase.
+- `03_peticion_con_accion.sh`: En este caso veremos cómo ejecutar una función con parámetros.
+- `04_respuesta_accion_realizada.sh`: La respuesta que hay que devolver, dado que hicimos la acción.
 
+---
 
+## 🏁 Fin del Viaje (Por ahora)
+
+¡Felicidades! Has llegado al final de este recorrido.
+Ahora sabes que:
+1.  Los LLMs son "stateless".
+2.  Podemos hablar con ellos vía HTTP.
+3.  Existen muchos tipos de modelos.
+4.  Podemos crear Agentes que usen herramientas.
+
+¿Y ahora qué? ¡Experimenta! Crea tus propias herramientas, conecta bases de datos, haz que los agentes controlen tu casa inteligente. El límite es tu imaginación (y la VRAM de tu GPU).
+
+🔙 **[Anterior: Agentes con Estado](../02_agentes_con_estado)** | 🏠 **[Volver al Inicio](../../README.md)**
