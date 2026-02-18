@@ -45,3 +45,7 @@ Si prefieres hacerlo manualmente o estás en Windows sin Make:
     ```bash
     pip install -r requirements.txt
     ```
+
+---
+**Navegación:**
+⬅️ [Anterior (Instalando Ollama)](../01_instalando_ollama/README.md) | ➡️ [Siguiente (Herramientas de Prueba)](../03_herramientas_pruebas/README.md)

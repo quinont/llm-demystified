@@ -12,3 +12,7 @@ Si estás en **Windows**, ¡eres bienvenido! Pero ten en cuenta que el soporte e
 3.  **[Herramientas de Prueba](./03_herramientas_pruebas/README.md)**: Instalaremos utilidades clave como `jq` y `curl` para inspeccionar las respuestas de la IA y hacer pruebas manuales.
 
 ¡Sigue el orden y estarás listo en minutos!
+
+---
+
+👉 **[Comenzar Paso 1: Instalando Ollama](./01_instalando_ollama/README.md)**

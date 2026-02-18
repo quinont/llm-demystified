@@ -56,3 +56,7 @@ ollama run gemma2:2b "Hola, ¿estás funcionando?"
 ```
 
 Si recibes una respuesta, ¡estás listo para continuar!
+
+---
+**Navegación:**
+⬅️ [Anterior (Setup Overview)](../README.md) | ➡️ [Siguiente (Entorno Python)](../02_entorno_python/README.md)

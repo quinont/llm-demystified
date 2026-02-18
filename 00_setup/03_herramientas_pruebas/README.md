@@ -36,3 +36,7 @@ brew install curl jq
 ### Windows
 Para Windows, se recomienda usar **WSL2** (Windows Subsystem for Linux) y seguir las instrucciones de Ubuntu.
 Alternativamente, puedes instalar `curl` y `jq` con `winget` o Chocolatey, pero su uso en PowerShell puede variar ligeramente.
+
+---
+**Navegación:**
+⬅️ [Anterior (Entorno Python)](../02_entorno_python/README.md) | 🚀 [**¡Comenzar Episodio 1!**](../../01_episodio_revisando_la_ia/README.md)
