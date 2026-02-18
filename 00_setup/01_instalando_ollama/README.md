@@ -36,16 +36,16 @@ Este proyecto utiliza varios modelos específicos en sus ejemplos. Necesitas des
 Ejecuta los siguientes comandos en tu terminal:
 
 ```bash
-# Modelos base para los ejemplos
-ollama pull gemma3:12b
-ollama pull qwen3:14b
-ollama pull dolphin3:8b
-ollama pull ministral-3:14b
+# Modelos base para los ejemplos (Versiones actuales recomendadas)
+ollama pull gemma2:9b
+ollama pull qwen2.5:14b
+ollama pull dolphin-mixtral:8x7b
+ollama pull mistral-nemo:12b
 ```
 
 > **⚠️ Nota Importante:**
-> Los nombres de los modelos (`gemma3`, `qwen3`, etc.) pueden referirse a versiones muy recientes o específicas que evolucionan rápido.
-> Si alguno de los comandos falla (ej. "manifest not found"), por favor busca la versión equivalente más actual en la [librería de Ollama](https://ollama.com/library) (por ejemplo `gemma2`, `qwen2.5`, `mistral-nemo`) y actualiza la referencia en el código Python correspondiente.
+> Los nombres de los modelos (`gemma2`, `qwen2.5`, etc.) evolucionan rápido.
+> Si alguno de los comandos falla (ej. "manifest not found"), por favor busca la versión equivalente más actual en la [librería de Ollama](https://ollama.com/library).
 
 ## 3. Verificación Rápida
 
@@ -58,5 +58,9 @@ ollama run gemma2:2b "Hola, ¿estás funcionando?"
 Si recibes una respuesta, ¡estás listo para continuar!
 
 ---
-**Navegación:**
-⬅️ [Anterior (Setup Overview)](../README.md) | ➡️ [Siguiente (Entorno Python)](../02_entorno_python/README.md)
+
+## 🚀 Siguiente paso
+
+Ya tenemos el cerebro listo. Ahora necesitamos un cuerpo (el código) para interactuar con él. Vamos a configurar el entorno de desarrollo.
+
+⬅️ [Volver al Inicio](../README.md) | 👉 **[Paso 2: El Cuerpo (Entorno Python)](../02_entorno_python/README.md)**

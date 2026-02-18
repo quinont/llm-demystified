@@ -38,5 +38,10 @@ Para Windows, se recomienda usar **WSL2** (Windows Subsystem for Linux) y seguir
 Alternativamente, puedes instalar `curl` y `jq` con `winget` o Chocolatey, pero su uso en PowerShell puede variar ligeramente.
 
 ---
-**Navegación:**
-⬅️ [Anterior (Entorno Python)](../02_entorno_python/README.md) | 🚀 [**¡Comenzar Episodio 1!**](../../01_episodio_revisando_la_ia/README.md)
+
+## 🚀 ¡Setup Completado!
+
+¡Felicidades! Tienes todo lo necesario: el cerebro, el cuerpo y las herramientas de análisis.
+Es hora de empezar a desmitificar la Inteligencia Artificial.
+
+⬅️ [Volver al Paso 2: Python](../02_entorno_python/README.md) | 🎬 **[Comenzar Episodio 1: Revisando la IA](../../01_episodio_revisando_la_ia/README.md)**

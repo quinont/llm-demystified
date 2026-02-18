@@ -47,5 +47,9 @@ Si prefieres hacerlo manualmente o estás en Windows sin Make:
     ```
 
 ---
-**Navegación:**
-⬅️ [Anterior (Instalando Ollama)](../01_instalando_ollama/README.md) | ➡️ [Siguiente (Herramientas de Prueba)](../03_herramientas_pruebas/README.md)
+
+## 🚀 Siguiente paso
+
+Ya tenemos el cerebro (Ollama) y el cuerpo (Python). Pero necesitamos gafas de rayos X para ver qué está pasando realmente en la red.
+
+⬅️ [Volver al Paso 1: Ollama](../01_instalando_ollama/README.md) | 👉 **[Paso 3: Rayos X (Herramientas de Prueba)](../03_herramientas_pruebas/README.md)**

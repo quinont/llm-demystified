@@ -15,4 +15,8 @@ Si estás en **Windows**, ¡eres bienvenido! Pero ten en cuenta que el soporte e
 
 ---
 
-👉 **[Comenzar Paso 1: Instalando Ollama](./01_instalando_ollama/README.md)**
+## 🚀 Siguiente paso
+
+Primero necesitamos el "cerebro". Vamos a instalar el motor de inferencia y descargar los modelos que usarán nuestros agentes.
+
+👉 **[Paso 1: Instalando el Cerebro (Ollama)](./01_instalando_ollama/README.md)**
