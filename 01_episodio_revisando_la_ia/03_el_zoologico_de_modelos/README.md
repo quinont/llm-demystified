@@ -2,12 +2,10 @@
 
 No todas las IAs son iguales. En este capítulo vamos a correr el **mismo prompt** contra 4 cerebros radicalmente distintos para ver cómo "piensan" (o alucinan).
 
-Obviamente estos 4 "cerebros" van a estar en el mismo host, asi que posiblemente sea muy lenta la ejecucion, ya lo veremos.
-
 ## 🦁 Los Tipos de Modelos
 
 ### 1. Modelos Base / Chat (General Purpose)
-Son los estandard (como Llama 3, Mistral). Están entrenados para entender instrucciones y conversar. Son el "promedio" equilibrado.
+Son los estándar (como Llama 3, Mistral). Están entrenados para entender instrucciones y conversar. Son el "promedio" equilibrado.
 
 ### 2. Modelos de Razonamiento (Reasoning)
 La nueva ola (como **DeepSeek-R1**). Estos modelos no responden inmediatamente; primero generan una cadena de pensamiento interna (`<think>...`) para verificar su lógica antes de hablar. Son más lentos, pero mucho mejores en matemáticas y lógica.
@@ -25,7 +23,7 @@ Verás nombres como `llama3:8b-instruct-q4_0`.
 
 Imagina que el modelo original es un audio WAV sin comprimir (FP16 - 16 bits). Pesa muchísimo, es enorme.
 
-La cuantización es convertirlo a MP3 (4 bits). Pierdes un *poquito* de calidad (inteligencia), pero el archivo pesa un tercio y corre 3 veces más rápido, y tambien otro dato importante, lo podes correr con una PC promedio (si, en verdad es un promedio para arriba, pero no necesitas algo muy sofisticado)
+La cuantización es convertirlo a MP3 (4 bits). Pierdes un *poquito* de calidad (inteligencia), pero el archivo pesa un tercio, corre 3 veces más rápido y lo puedes correr en una PC promedio.
 
 ---
 
@@ -34,22 +32,31 @@ Ejecuta `benchmark_modelos.py`. Vamos a preguntar un acertijo lógico simple:
 
 > *"Tengo 3 camisas secándose al sol y tardan 1 hora. Si pongo 6 camisas, ¿cuánto tardan?"*
 
-Resultados esperados:
+### Resultados esperados (Hipótesis):
 * **Tiny:** Probablemente diga "2 horas" (falla matemática lineal).
 * **Large:** Dirá "1 hora" (entiende el contexto físico).
 * **Reasoning:** Te mostrará paso a paso su deducción física.
 * **Uncensored:** Responderá directo y sin rodeos.
 
-O bueno, esa es la idea antes de que comience a correr, veamos que pasa si lo ejecutamos.
+**Nota:** Como todos los modelos van a correr en el mismo servidor, la ejecución puede tomar tiempo dependiendo de tu hardware (carga/descarga de modelos en VRAM).
 
-NOTA: como todos los modelos van a correr en el mismo servidor, es posible que (dependiendo de tu host) el mismo tarde un tiempo en prender y apagar cada modelo, o prenda un modelo con un poco de memoria en la RAM y otro en la placa de video.
+```bash
+python benchmark_modelos.py
+```
 
 ---
 
 ## Reto
 
-Siempre es posible ir un poco mas a fondo con esto, te invito a probar:
-- que pasa con otros modelos.
-- Que pasa si ocupo un "reasoning" mas pequeño? o mas grande?
+Siempre es posible ir un poco más a fondo:
+- ¿Qué pasa con otros modelos que conozcas?
+- ¿Qué pasa si ocupas un modelo "reasoning" más pequeño? ¿O más grande?
 
+---
 
+## ⏭️ Siguiente Episodio
+
+Hemos terminado la introducción básica. Sabemos hablar con la IA y sabemos que hay diferentes tipos.
+Ahora, ¿qué pasa si hacemos que **dos IAs hablen entre sí**?
+
+🔙 **[Anterior: La Verdad del Request](../02_la_verdad_del_request)** | 👉 **[Episodio 2: IA Hablando con IA](../../02_ia_hablando_con_ia)**
