@@ -4,15 +4,18 @@ Bienvenido a este viaje donde vamos a desarmar, pieza por pieza, el funcionamien
 
 El objetivo de este repositorio no es enseñarte a usar ChatGPT, sino a **entender qué pasa por debajo**. Queremos quitarle la capa de "magia" y ver los engranajes: los HTTP requests, los prompts de sistema, la gestión de memoria y cómo las IAs pueden usar herramientas.
 
+## 🛠️ ¿Cómo empezar?
+
+Antes de sumergirte en los episodios, necesitas preparar tu laboratorio.
+Hemos preparado una guía paso a paso para configurar todo lo necesario (Ollama, Python, herramientas).
+
+👉 **[Ir a la Guía de Setup](./00_setup/README.md)**
+
+---
+
 ## 🗺️ Mapa de Ruta
 
 El contenido está dividido en "Episodios", diseñados para ser seguidos en orden. Cada carpeta contiene código funcional y explicaciones detalladas.
-
-### 🛠️ Pre-Requisitos: `00_setup`
-
-Antes de empezar, asegúrate de tener tu entorno listo. Revisa la carpeta `00_setup` para instalar las dependencias necesarias (Python, Ollama, etc.). **Es fundamental tener Ollama corriendo para los ejemplos.**
-
----
 
 ### 📺 Episodio 1: Revisando la IA
 En este primer episodio, nos centraremos en los fundamentos. ¿Cómo nos comunicamos con un modelo? ¿Qué es realmente un "chat"?
@@ -36,6 +39,4 @@ Una vez que entendemos lo básico, vamos a subir el nivel. ¿Qué pasa si conect
 
 ---
 
-## 🚀 ¿Cómo empezar?
-
-Simplemente ve a la carpeta del **Episodio 1** y comienza a leer. ¡Disfruta el viaje!
+¡Disfruta el viaje!

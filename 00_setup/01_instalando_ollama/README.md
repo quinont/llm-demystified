@@ -14,6 +14,21 @@ Una vez instalado, verifica que esté corriendo abriendo una terminal y ejecutan
 ollama --version
 ```
 
+### ¿Por qué Ollama? (vs OpenAI, Google, Anthropic)
+
+Aunque el código de este proyecto utiliza la librería `ollama` para interactuar con modelos locales, es importante aclarar que **los conceptos que aprenderás aquí son universales**.
+
+La estructura de los mensajes (`system`, `user`, `assistant`), el uso de herramientas (*tool calling*), y el manejo de contexto son prácticamente idénticos si decidieras usar las APIs de:
+- OpenAI (GPT-4o, o1)
+- Google (Gemini)
+- Anthropic (Claude)
+- Groq, Mistral, etc.
+
+**Elegimos Ollama para este curso porque:**
+1.  **Es Gratis:** No necesitas tarjetas de crédito ni pagar por tokens para aprender.
+2.  **Es Privado:** Tus datos no salen de tu máquina.
+3.  **Es "Desmitificador":** Al correrlo en tu propia PC, ves que no es magia en la nube, es solo software ejecutándose en tu hardware.
+
 ## 2. Descargando los Modelos
 
 Este proyecto utiliza varios modelos específicos en sus ejemplos. Necesitas descargarlos ("pull") para que los scripts de Python funcionen correctamente.
