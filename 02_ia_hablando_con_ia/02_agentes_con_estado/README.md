@@ -37,13 +37,13 @@ En este script, el Agente B tendrá acceso a dos Tools:
 ```mermaid
 graph TD
     subgraph "Mundo Python (El Cuerpo)"
-        State[📊 Variables de Estado<br/>Saciedad: 40<br/>Energía: 10]
-        Action[🛠️ Ejecutar Acción<br/>(Comer/Dormir)]
+        State["📊 Variables de Estado<br/>Saciedad: 40<br/>Energía: 10"]
+        Action["🛠️ Ejecutar Acción<br/>(Comer/Dormir)"]
     end
 
     subgraph "Ollama (El Cerebro)"
-        Decision{¿Necesito algo?}
-        Reply[💬 Responder al Chat]
+        Decision{"¿Necesito algo?"}
+        Reply["💬 Responder al Chat"]
     end
 
     Input[Mensaje Entrante] --> Decision
